@@ -2,13 +2,18 @@
   "name": "eslint-plugin-bof-newline",
   "description": "ESLint plugin to ensure that files begin with new line",
   "version": "1.0.1",
-  "main": "index.js",
+  "files": [
+    "/index.js",
+    "/lib"
+  ],
   "repository": "https://github.com/lucastaliberti/eslint-plugin-bof-newline.git",
   "author": "Lucas Taliberti de Sousa <lucastaliberti@gmail.com>",
   "license": "MIT",
   "keywords": [
     "eslint",
-    "eslintplugin"
+    "eslint-plugin",
+    "newline",
+    "eol-first"
   ],
   "scripts": {
     "test": "yarn run lint && yarn run unit",
@@ -21,8 +26,5 @@
   },
   "peerDependencies": {
     "eslint": ">=0.18.0"
-  },
-  "dependencies": {
-    "lodash": "^4.17.5"
   }
 }
